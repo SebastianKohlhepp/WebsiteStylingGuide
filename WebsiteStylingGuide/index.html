@@ -2,7 +2,14 @@
 <html lang="en-GB">
 
 <head>
-    <link href="styles.css" rel="styles">
+    <script>
+        function copyText(text) {
+            navigator.clipboard.writeText(text);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Website Style Guide</title>
 </head>
 
@@ -11,18 +18,80 @@
     <div class="container">
         <h3>Colors</h3>
         <div class="colors">
-
+            <div class="color-panel deep-sea-blue">
+                <p>Deep Sea Blue</p>
+                <p class="clickable" onclick="copyText('#4957A6')">#4957A6</p>
+            </div>
+            <div class="color-panel summer-grass-green">
+                <p>Summer Grass Green</p>
+                <p class="clickable" onclick="copyText('#68A63C')">#68A63C</p>
+            </div>
+            <div class="color-panel noon-sun-yellow">
+                <p>Noon Sun Yellow</p>
+                <p class="clickable" onclick="copyText('#F2D027')">#F2D027</p>
+            </div>
+            <div class="color-panel evening-sun-red">
+                <p>Evening Sun Red</p>
+                <p class="clickable" onclick="copyText('#BF5D39')">#BF5D39</p>
+            </div>
+            <div class="color-panel campfire-red">
+                <p>Campfire Red</p>
+                <p class="clickable" onclick="copyText('#F24E29')">#F24E29</p>
+            </div>
         </div>
     </div>
     <div class="container">
         <h3>Fonts</h3>
         <div class="fonts">
-
+            <div class="font-panel roboto">
+                <a
+                    href="https://fonts.google.com/specimen/Roboto?selected=Material+Symbols+Outlined:search:FILL@0;wght@400;GRAD@0;opsz@24">
+                    <p class="font-name">Roboto</p>
+                </a>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="font-panel young-serif">
+                <a
+                    href="https://fonts.google.com/specimen/Young+Serif?selected=Material+Symbols+Outlined:search:FILL@0;wght@400;GRAD@0;opsz@24">
+                    <p class="font-name">Young Serif</p>
+                </a>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="font-panel pixelify-sans">
+                <a
+                    href="https://fonts.google.com/specimen/Pixelify+Sans?selected=Material+Symbols+Outlined:search:FILL@0;wght@400;GRAD@0;opsz@24">
+                    <p class="font-name">Pixelify Sans</p>
+                </a>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
         </div>
     </div>
     <div class="container">
         <h3>Icons</h3>
-        <div class="icons"></div>
+        <div class="icons">
+            <div class="icon-panel home-button">
+                <p>Home Button</p>
+                <span class="material-symbols-outlined clickable">home</span>
+            </div>
+            <div class="icon-panel menu-buttton">
+                <p>Menu Button</p>
+                <span class="material-symbols-outlined clickable">menu</span>
+            </div>
+            <div class="icon-panel settings-button">
+                <p>Settings Button</p>
+                <p onclick="copyText('settings')"><span class="material-symbols-outlined clickable">settings</span></p>
+            </div>
+            <div class="icon-panel search-icon">
+                <p>Search Icon</p>
+                <span class="material-symbols-outlined clickable">search</span>
+            </div>
+        </div>
     </div>
 </body>
 

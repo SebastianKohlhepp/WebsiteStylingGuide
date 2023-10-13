@@ -1,4 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto&family=Young+Serif&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10%;
+}
+
 h1 {
     margin: auto;
     text-align: center;
+    background-color: grey;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+/*Colors */
+
+.colors {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.deep-sea-blue {
+    background-color: #4957A6;
+}
+
+.summer-grass-green {
+    background-color: #68A63C;
+}
+
+.noon-sun-yellow {
+    background-color: #F2D027;
+}
+
+.evening-sun-red {
+    background-color: #BF5D39;
+}
+
+.campfire-red {
+    background-color: #F24E29;
+}
+
+
+/* Fonts */
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-name {
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.pixelify-sans p {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.roboto p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.young-serif p {
+    font-family: 'Young Serif', serif;
+}
+
+
+/* Icons */
+
+.icons {}
+
+.icon-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
