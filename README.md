@@ -5,6 +5,6 @@ ToDo
 - [x] Color Container
 - [x] Font Container
 - [x] Default Icons
-- [ ] Text Styling
+- [x] Text Styling
 - [ ] etc.
 
