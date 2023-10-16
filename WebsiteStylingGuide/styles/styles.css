@@ -100,9 +100,28 @@ h1 {
 }
 
 
-/* Icons */
+/* Text Styles*/
 
-.icons {}
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+/* Icons */
 
 .icon-panel {
     display: inline-block;
